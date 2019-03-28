@@ -9,7 +9,7 @@ function iniciar(route) {
     route(pathname);
 
     response.writeHead(200, {"Content-Type" : "text/html"});
-    response.write("texto de prueba");
+    response.write("Hola Mundo!");
     response.end();
   }
 
